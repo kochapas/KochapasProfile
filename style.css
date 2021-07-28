@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&family=Roboto&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #dbd8db;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+#textoverprofile {
+  color: #cfdce2;
+  position: absolute;
+  top: 70%;
+  left: 43%;
+  opacity: 1;
+  text-align: center;
+  text-shadow: 1px 1px #525561;
+}
+
+.card {
+  box-shadow: 0 0 20px #6b828d;
+  padding: 16px 32px;
+  margin: 20px;
+  color: black;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 4px;
+  transition: 0.5s all ease-in-out;
+}
+
+.card:hover {
+  background-color: rgb(255, 255, 255, 0.9);
+  transition: 0.5s all ease-in-out;
+}
+
+#profilecard {
+  position: relative;
+}
+
+#profileimg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.linkbutton {
+  background-color: #536DFE;
+  color: #f4f3f4;
+  padding: 8px 16px;
+  border-radius: 4px;
+  line-height: 4;
+}
+
+.linkbutton:hover {
+  color: #f4f3f4;
+  background-color: #00106d;
+}
+
+h1 {
+  color: #455A64;
+  font-family: 'Acme', sans-serif;
+  line-height: 0.4;
+}
+
+h2 {
+  color: #607D8B;
+  font-family: 'Acme', sans-serif;
+  opacity: 75%;
+  line-height: 0.4;
+}
+
+a {
+  text-decoration: none;
+  color: #536DFE;
+  font-family: 'Pacifico', cursive;
+}
+
+a:hover {
+  color: #00106d;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.link-icon{
+  font-size: 50px;
+}
